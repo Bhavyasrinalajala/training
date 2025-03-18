@@ -1,0 +1,102 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Resume Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #218838;
+}
+
+h1 {
+    color:black;
+}
+
+.contact-info {
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+h2 {
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+p, li {
+    color: #444;
+}
+
+/* Declaration Section */
+.declaration {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: white;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Contact Button */
+.contact-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Submit Resume Button */
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
