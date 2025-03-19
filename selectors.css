@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    color: greenyellow;
+}
+h1{
+    color:burlywood;
+}
+p{
+    background-color: white;
+}
+div{
+    color:aqua;
+}
+.srija{
+    background-color: red;
+}
+#welcome{
+    font-size: 20px;
+    color: olive;
+}
+input[type="text"]{
+    height: 50px;
+}
+h1,p{
+    color: plum;
+}
+.parent div{
+    background-color: blue;
+}
+.child-selector>div{
+    font-size: larger;
+    color: brown;
+    margin-top: 30px;
+}
+.adjacent-div+p{
+    color: palevioletred;
+}
+.adjacent-div~p{
+    color: purple;
+}
