@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elements</title>
+    <style>
+        .paragraph::first-letter{
+            color: green;
+            font-weight: bolder;
+        }
+        .paragraph::first-line{
+            color: yellowgreen;
+            font-weight: bolder;
+        }
+        .paragraph::after{
+            content:"dummy";
+        }
+        p::after{
+            content:"hi";
+        }
+        paragraph::before{
+            content:"hello"
+        }
+        p::before{
+            content:"namaste";
+        }
+    </style>
+</head>
+<body>
+        <p>this is one</p>
+        <p>this is second</p>
+        <p>this is third</p>
+    <p class="paragraph">Full-stack development encompasses building both the front-end (user-facing) and back-end (server-side) of applications, requiring proficiency in technologies like HTML, CSS, JavaScript, and server-side languages. </p>
+</body>
+</html>
