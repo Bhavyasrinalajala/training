@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <style>
+        /*.units-header{
+            font-size: 20px;
+            display:flex;
+        }
+        .unit-head1{
+            font-size:2rem ;
+            background-color: red;
+            height: 100vh;
+            width: 50vw;
+        }
+        .unit-head2{
+            font-size:2rem;
+            background-color: green;
+            height: 100vh;
+            width:50vw;
+        }*/
+         
+        .percentage-unit{
+            display:flex;
+            width:700px;
+        }
+        .p-left{
+            background-color: palevioletred;
+            width: 300px;
+        }
+        .p-right{
+            background-color: green;
+            width: 400px;
+        }
+    @media(min-width:600px){
+            .p-left{
+                background-color:blue;
+                width:40%;
+            }
+            .p-right{
+                background-color: aqua;
+                width:60%;
+            }
+            @media(orientation:landscape){
+                body{
+                    background-color: red;
+                }
+            }
+            @media(orientation:portrait){
+                body{
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="percentage-unit">
+        <div class="p-left">left</div>
+        <div class="p-right">right</div>
+    </div>
+    
+</body>
+</html>
